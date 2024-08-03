@@ -1,8 +1,8 @@
-Id,Name,Department,Salary,HireDate
-2,Jane Smith,Marketing,55000.50,2019-11-01
-3,Bob Johnson,IT,60000.75,2021-03-10
-5,Charlie Davis,Finance,58000.00,2022-01-05
-6,Eva White,Marketing,51000.00,2021-09-30
-8,Grace Lee,HR,53000.25,2022-03-15
-9,Henry Clark,Sales,52500.75,2021-07-01
-10,Ivy Green,IT,61000.00,2020-11-20
+Id,Name,Department,Salary,PerformanceRating,ProjectsCompleted,BonusPercentage,EmergencyContact,ManagerId
+2,Jane Smith,Marketing,55000.50,Excellent,12,5.5,Emergency Contact 2,M001
+3,Bob Johnson,IT,60000.75,Good,8,3.0,Emergency Contact 3,M002
+5,Charlie Davis,Finance,58000.00,Outstanding,15,7.0,Emergency Contact 5,M003
+6,Eva White,Marketing,51000.00,Good,10,3.5,Emergency Contact 6,M001
+8,Grace Lee,HR,53000.25,Excellent,11,5.0,Emergency Contact 8,M004
+9,Henry Clark,Sales,52500.75,Good,9,3.2,Emergency Contact 9,M005
+10,Ivy Green,IT,61000.00,Outstanding,14,6.5,Emergency Contact 10,M002

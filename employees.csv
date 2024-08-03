@@ -1,8 +1,8 @@
-Id,Name,Department,Salary,HireDate
-1,John Doe,Sales,50000.00,2020-01-15
-2,Jane Smith,Marketing,55000.50,2019-11-01
-3,Bob Johnson,IT,60000.75,2021-03-10
-4,Alice Brown,HR,52000.25,2020-06-22
-5,Charlie Davis,Finance,58000.00,2022-01-05
-6,Eva White,Sales,51000.00,2021-09-30
-7,Frank Miller,IT,62000.50,2020-04-18
+Id,Name,Department,Salary,HireDate,Email,PhoneNumber,Position,YearsOfExperience,EducationLevel
+1,John Doe,Sales,50000.00,2020-01-15,john.doe@company.com,555-0101,Sales Representative,5,Bachelor's
+2,Jane Smith,Marketing,55000.50,2019-11-01,jane.smith@company.com,555-0102,Marketing Specialist,7,Master's
+3,Bob Johnson,IT,60000.75,2021-03-10,bob.johnson@company.com,555-0103,Software Developer,3,Bachelor's
+4,Alice Brown,HR,52000.25,2020-06-22,alice.brown@company.com,555-0104,HR Coordinator,4,Bachelor's
+5,Charlie Davis,Finance,58000.00,2022-01-05,charlie.davis@company.com,555-0105,Financial Analyst,2,Master's
+6,Eva White,Sales,51000.00,2021-09-30,eva.white@company.com,555-0106,Sales Manager,8,Bachelor's
+7,Frank Miller,IT,62000.50,2020-04-18,frank.miller@company.com,555-0107,System Administrator,6,Associate's
