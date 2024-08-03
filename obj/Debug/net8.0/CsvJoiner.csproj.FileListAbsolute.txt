@@ -1,0 +1,17 @@
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\bin\Debug\net8.0\CsvJoiner.exe
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\bin\Debug\net8.0\CsvJoiner.deps.json
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\bin\Debug\net8.0\CsvJoiner.runtimeconfig.json
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\bin\Debug\net8.0\CsvJoiner.dll
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\bin\Debug\net8.0\CsvJoiner.pdb
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.csproj.AssemblyReference.cache
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.AssemblyInfoInputs.cache
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.AssemblyInfo.cs
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.csproj.CoreCompileInputs.cache
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.csproj.Up2Date
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.dll
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\refint\CsvJoiner.dll
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.pdb
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.genruntimeconfig.cache
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\ref\CsvJoiner.dll

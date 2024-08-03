@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ILbdLak/oFAEsaScgLQU8pQuBGtdIwe2gkjGRsHMIzj0NHmHVfbp7++AifTcLVaEC6lqb8sYaN7iuprzJKHMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juan Steven\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
