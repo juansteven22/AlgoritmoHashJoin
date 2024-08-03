@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text.Json;
 using CsvHelper;
 using CsvHelper.Configuration;
 
@@ -13,7 +14,7 @@ namespace CsvJoiner
         public string Id { get; set; }
         public string Name { get; set; }
         public string Department { get; set; }
-        public string Salary { get; set; }
+        public decimal Salary { get; set; }
         public string HireDate { get; set; }
     }
 
@@ -22,8 +23,10 @@ namespace CsvJoiner
         public string Id { get; set; }
         public string Name { get; set; }
         public string Department { get; set; }
-        public string Salary { get; set; }
+        public decimal Salary { get; set; }
         public string HireDate { get; set; }
+        public bool Cruzo { get; set; }
+        public string Nodos { get; set; }
     }
 
     class Program
@@ -87,7 +90,8 @@ namespace CsvJoiner
                             record.Department = value;
                             break;
                         case "salary":
-                            record.Salary = value;
+                            decimal.TryParse(value, out decimal salary);
+                            record.Salary = salary;
                             break;
                         case "hiredate":
                             record.HireDate = value;
@@ -99,29 +103,62 @@ namespace CsvJoiner
 
             return records;
         }
-        static List<CsvRecord> HashJoin(List<CsvRecord> list1, List<CsvRecord> list2)
+        static List<JoinedRecord> HashJoin(List<CsvRecord> list1, List<CsvRecord> list2)
         {
-            var hashTable = list1.ToDictionary(item => item.Id, item => item);
-            var result = new List<CsvRecord>();
+            var hashTable = list1.ToDictionary(item => $"{item.Id}_{item.Department}", item => item);
+            var result = new List<JoinedRecord>();
 
+            // Procesar list2 y crear registros unidos
             foreach (var item in list2)
             {
-                if (hashTable.TryGetValue(item.Id, out var matchingItem))
+                string key = $"{item.Id}_{item.Department}";
+                if (hashTable.TryGetValue(key, out var matchingItem))
                 {
-                    result.Add(new CsvRecord
+                    result.Add(new JoinedRecord
                     {
                         Id = item.Id,
-                        Name = matchingItem.Name ?? item.Name,
-                        Department = matchingItem.Department ?? item.Department,
-                        Salary = matchingItem.Salary ?? item.Salary,
-                        HireDate = matchingItem.HireDate ?? item.HireDate
+                        Name = item.Name,
+                        Department = item.Department,
+                        Salary = item.Salary,
+                        HireDate = item.HireDate,
+                        Cruzo = true,
+                        Nodos = JsonSerializer.Serialize(new[] { matchingItem, item })
+                    });
+                    hashTable.Remove(key);
+                }
+                else
+                {
+                    result.Add(new JoinedRecord
+                    {
+                        Id = item.Id,
+                        Name = item.Name,
+                        Department = item.Department,
+                        Salary = item.Salary,
+                        HireDate = item.HireDate,
+                        Cruzo = false,
+                        Nodos = JsonSerializer.Serialize(new[] { item })
                     });
                 }
             }
 
+            // Agregar los registros restantes de list1 que no cruzaron
+            foreach (var item in hashTable.Values)
+            {
+                result.Add(new JoinedRecord
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Department = item.Department,
+                    Salary = item.Salary,
+                    HireDate = item.HireDate,
+                    Cruzo = false,
+                    Nodos = JsonSerializer.Serialize(new[] { item })
+                });
+            }
+
             return result;
         }
-        static void WriteCsvFile(List<CsvRecord> records, string filePath)
+        static void WriteCsvFile(List<JoinedRecord> records, string filePath)
         {
             try
             {

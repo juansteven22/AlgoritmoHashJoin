@@ -1,8 +1,8 @@
 Id,Name,Department,Salary,HireDate
-1,John Doe,Sales,50000.00,2020-01-15
 2,Jane Smith,Marketing,55000.50,2019-11-01
 3,Bob Johnson,IT,60000.75,2021-03-10
-4,Alice Brown,HR,52000.25,2020-06-22
 5,Charlie Davis,Finance,58000.00,2022-01-05
-6,Eva White,Sales,51000.00,2021-09-30
-7,Frank Miller,IT,62000.50,2020-04-18
+6,Eva White,Marketing,51000.00,2021-09-30
+8,Grace Lee,HR,53000.25,2022-03-15
+9,Henry Clark,Sales,52500.75,2021-07-01
+10,Ivy Green,IT,61000.00,2020-11-20

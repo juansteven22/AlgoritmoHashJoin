@@ -1,0 +1,12 @@
+Id,Name,Department,Salary,HireDate,Cruzo,Nodos
+2,Jane Smith,Marketing,5500050,2019-11-01,True,"[{""Id"":""2"",""Name"":""Jane Smith"",""Department"":""Marketing"",""Salary"":5500050,""HireDate"":""2019-11-01""},{""Id"":""2"",""Name"":""Jane Smith"",""Department"":""Marketing"",""Salary"":5500050,""HireDate"":""2019-11-01""}]"
+3,Bob Johnson,IT,6000075,2021-03-10,True,"[{""Id"":""3"",""Name"":""Bob Johnson"",""Department"":""IT"",""Salary"":6000075,""HireDate"":""2021-03-10""},{""Id"":""3"",""Name"":""Bob Johnson"",""Department"":""IT"",""Salary"":6000075,""HireDate"":""2021-03-10""}]"
+5,Charlie Davis,Finance,5800000,2022-01-05,True,"[{""Id"":""5"",""Name"":""Charlie Davis"",""Department"":""Finance"",""Salary"":5800000,""HireDate"":""2022-01-05""},{""Id"":""5"",""Name"":""Charlie Davis"",""Department"":""Finance"",""Salary"":5800000,""HireDate"":""2022-01-05""}]"
+6,Eva White,Marketing,5100000,2021-09-30,False,"[{""Id"":""6"",""Name"":""Eva White"",""Department"":""Marketing"",""Salary"":5100000,""HireDate"":""2021-09-30""}]"
+8,Grace Lee,HR,5300025,2022-03-15,False,"[{""Id"":""8"",""Name"":""Grace Lee"",""Department"":""HR"",""Salary"":5300025,""HireDate"":""2022-03-15""}]"
+9,Henry Clark,Sales,5250075,2021-07-01,False,"[{""Id"":""9"",""Name"":""Henry Clark"",""Department"":""Sales"",""Salary"":5250075,""HireDate"":""2021-07-01""}]"
+10,Ivy Green,IT,6100000,2020-11-20,False,"[{""Id"":""10"",""Name"":""Ivy Green"",""Department"":""IT"",""Salary"":6100000,""HireDate"":""2020-11-20""}]"
+1,John Doe,Sales,5000000,2020-01-15,False,"[{""Id"":""1"",""Name"":""John Doe"",""Department"":""Sales"",""Salary"":5000000,""HireDate"":""2020-01-15""}]"
+4,Alice Brown,HR,5200025,2020-06-22,False,"[{""Id"":""4"",""Name"":""Alice Brown"",""Department"":""HR"",""Salary"":5200025,""HireDate"":""2020-06-22""}]"
+6,Eva White,Sales,5100000,2021-09-30,False,"[{""Id"":""6"",""Name"":""Eva White"",""Department"":""Sales"",""Salary"":5100000,""HireDate"":""2021-09-30""}]"
+7,Frank Miller,IT,6200050,2020-04-18,False,"[{""Id"":""7"",""Name"":""Frank Miller"",""Department"":""IT"",""Salary"":6200050,""HireDate"":""2020-04-18""}]"
