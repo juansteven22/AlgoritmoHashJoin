@@ -15,3 +15,4 @@ C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\refint\Cs
 C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.pdb
 C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.genruntimeconfig.cache
 C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\ref\CsvJoiner.dll
+C:\Users\Juan Steven\Desktop\.NET\Hash-join\CsvJoiner\obj\Debug\net8.0\CsvJoiner.sourcelink.json

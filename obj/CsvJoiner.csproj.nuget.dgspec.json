@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj": {}
+    "c:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj": {
+    "c:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj",
+        "projectUniqueName": "c:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj",
         "projectName": "CsvJoiner",
-        "projectPath": "C:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj",
+        "projectPath": "c:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\CsvJoiner.csproj",
         "packagesPath": "C:\\Users\\Juan Steven\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\obj\\",
+        "outputPath": "c:\\Users\\Juan Steven\\Desktop\\.NET\\Hash-join\\CsvJoiner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
